@@ -63,7 +63,7 @@ public class DocUtility {
 	/**
 	 * this method will return the count of number of pages of input doc file
 	 * 
-	 * @return
+	 * @return int
 	 */
 	public int getPageCount() {
 		pageCount = (null != xDoc) ? xDoc.getProperties().getExtendedProperties().getUnderlyingProperties().getPages()
